@@ -1,0 +1,8 @@
+.cc-chatbot { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; }
+.cc-window { min-height: 200px; max-height: 40vh; overflow:auto; padding:8px; border:1px solid #eee; border-radius:6px; background:white }
+.cc-message { margin: 6px 0 }
+.cc-user { text-align: right }
+.cc-input-row { display:flex; gap:8px; margin-top:8px }
+.cc-input-row input { flex:1; padding:8px 10px; border-radius:6px; border:1px solid #ddd }
+.cc-input-row button { padding:8px 12px; border-radius:6px; background:#2563eb; color:white; border:none }
+.cc-empty { color:#666 }
