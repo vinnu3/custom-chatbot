@@ -1,5 +1,5 @@
 {
-  "name": "custom-chatbot-client",
+  "name": "@pru/custom-chatbot-client",
   "version": "0.1.0",
   "description": "A small publishable React Chatbot widget (client) for the Custom Chatbot project",
   "main": "dist/index.cjs.js",
@@ -8,7 +8,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "rollup -c",
+    "build": "rollup -c rollup.config.cjs",
     "test": "echo \"No tests yet\" && exit 0"
   },
   "peerDependencies": {
